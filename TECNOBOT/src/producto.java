@@ -1,16 +1,29 @@
+/**
+ * Clase Producto
+ * 
+ * Representa un producto en el sistema de comercio electrónico.
+ * Contiene toda la información relacionada con los productos disponibles para la venta.
+ */
 public class producto {
-    private int productId;
-    private String image; // Considera cambiar a String imageUrl o usar una biblioteca de imágenes
-    private int categoryId;
-    private int supplierId;
-    private String name;
-    private String description;
-    private int  price; // Usando BigDecimal para mayor precisión
+      // Atributos (Propiedades) de la clase Producto
+    private int productId; // ID único del producto
+    private String image; // URL o representación de la imagen del producto (puede cambiarse)
+    private int categoryId; // ID de la categoría a la que pertenece el producto
+    private int supplierId; // ID del proveedor del producto
+    private String name; // Nombre del producto
+    private String description; // Descripción del producto
+    private int  price; // Precio del producto (puedes usar BigDecimal si necesitas precisión)
+
+    /**
+     * Constructor sin parámetros
+     * Este constructor se utiliza para crear un objeto Producto sin asignar valores
+     * iniciales a los atributos.
+     */
 
     // Constructor sin parámetros
     public producto() {
     }
-
+// Atributos (Propiedades) de la clase Producto
     // Constructor con parámetros
     public producto(int productId, String image, int categoryId, int supplierId, String name, String description, int  price) {
         this.productId = productId;
