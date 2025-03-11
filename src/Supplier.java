@@ -1,4 +1,4 @@
-public class supplier {
+public class Supplier {
     private int supplierId;
     private String name;
     private String address;
@@ -6,11 +6,11 @@ public class supplier {
     private String email;
 
     // Constructor sin parámetros
-    public supplier() {
+    public Supplier() {
     }
 
     // Constructor con parámetros
-    public supplier(int supplierId, String name, String address, String phone, String email) {
+    public Supplier(int supplierId, String name, String address, String phone, String email) {
         this.supplierId = supplierId;
         this.name = name;
         this.address = address;

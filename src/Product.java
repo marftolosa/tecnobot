@@ -4,7 +4,7 @@
  * Representa un producto en el sistema de comercio electrónico.
  * Contiene toda la información relacionada con los productos disponibles para la venta.
  */
-public class producto {
+public class Product {
       // Atributos (Propiedades) de la clase Producto
     private int productId; // ID único del producto
     private String image; // URL o representación de la imagen del producto (puede cambiarse)
@@ -21,11 +21,11 @@ public class producto {
      */
 
     // Constructor sin parámetros
-    public producto() {
+    public Product() {
     }
 // Atributos (Propiedades) de la clase Producto
     // Constructor con parámetros
-    public producto(int productId, String image, int categoryId, int supplierId, String name, String description, int  price) {
+    public Product(int productId, String image, int categoryId, int supplierId, String name, String description, int  price) {
         this.productId = productId;
         this.image = image;
         this.categoryId = categoryId;
